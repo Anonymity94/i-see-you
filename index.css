@@ -1,0 +1,62 @@
+.navbar-brand {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.step .title {
+    margin-bottom: 4px;
+}
+
+#mapContainer {
+    width: 100%;
+    height: 400px;
+}
+
+.previewWrap .imageItem {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+}
+
+.previewWrap .imageItem.active {
+    border: 2px solid red;
+}
+
+#lnglatWrap .badge {
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+#imageCreateAddress {
+    white-space: pre-line;
+}
+
+.card-header {
+    padding: 0.25rem 0.75rem;
+}
+
+.card-body {
+    padding: 0.75rem;
+}
+
+.custom-file-label::after {
+    content: '选择图片' !important;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-style: dashed;
+}
+
+pre {
+    white-space: pre-line;
+    word-break: break-all;
+    padding: 10px;
+    background: #f5f5f5;
+}
